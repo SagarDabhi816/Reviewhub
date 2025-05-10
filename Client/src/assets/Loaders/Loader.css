@@ -1,0 +1,17 @@
+  .loader {
+  width: fit-content;
+  font-size: 40px;
+  font-family: system-ui,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ce121200;
+  -webkit-text-stroke: 1px #FFB22C;
+  background: conic-gradient(#FFB22C 0 0) 0/0% 100% no-repeat text;
+  animation: l1 1s linear infinite;
+}
+.loader:before {
+  content: "★ ★ ★ ★ ★ ";
+}
+@keyframes l1 {
+  to{background-size: 120% 100%}
+}
